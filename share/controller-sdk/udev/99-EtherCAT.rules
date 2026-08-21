@@ -1,0 +1,2 @@
+# EtherCAT 设备节点权限（安装后可按需改 GROUP）
+KERNEL=="EtherCAT[0-9]*", MODE="0664", GROUP="root"
